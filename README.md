@@ -1,1 +1,1 @@
-This is my react template with express server.
+A cv react proyect i expect to publish in my personal github page.
