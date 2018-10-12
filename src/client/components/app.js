@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Button from '@material-ui/core/Button';
 
-class App extends Component {
-  render() {
-    return <h1>Hello Nico</h1>;
-  }
+function App() {
+  return (
+    <Button variant="contained" color="primary">
+      Hello World
+    </Button>
+  );
 }
 
 export default App;

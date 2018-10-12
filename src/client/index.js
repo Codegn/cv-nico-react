@@ -1,8 +1,13 @@
-import React from 'react';
-import { render } from 'react-dom';
-import App from './components/App.js';
+import React from "react";
+import { render } from "react-dom";
+import App from "./components/App.js";
+import Card from "@material-ui/core/Card";
 
 render(
-  <App />,
-  document.getElementById('root')
+  <div>
+    <Card raised="true">
+      <App />
+    </Card>
+  </div>,
+  document.getElementById("root")
 );

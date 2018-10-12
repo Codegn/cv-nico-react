@@ -4,8 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "nodemon src/server/index.js",
-    "build": "webpack --mode production"
+    "start": "node src/server/index.js",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
     "express": "^4.16.3"
   }
 }
